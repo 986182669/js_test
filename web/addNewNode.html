@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form id="form1">
+        <input type="button" value="添加文本框" onclick="addNewNode();"/>
+        <br />
+        <select id="sel1" onchange="showCities();">
+            <option>请选择</option>
+            <option>西安</option>
+            <option>咸阳</option>
+        </select>
+        <select id="sel2">
+            <option>请选择</option>
+        </select>
+
+        <input type="button" value="增加" id = "but1" onclick="modiTable();">4
+        物品 :<input type="text" id="txtName"/>
+        价格 :<input type="text" id="price"/>
+
+        <table id="table1" border="1">
+            <tr>
+                <td>物品</td>
+                <td>价格</td>
+            </tr>
+
+        </table>
+    </form>
+<input type="button" onclick="testLoction();" value="testLocation">
+    <input type="button" onclick="testNavigator();" value="testNavigator">
+
+
+<div id="div2" style="width: 100px;height: 100px;border: 1px solid red;" onclick="testEvent(event);">
+    <p id="p1" style="border: 1px solid green;">
+        <input type="button" value="testEvent">
+    </p>
+</div>
+    <div id="div3" onclick="cal(event);" style="width: 100px;height:150px;border: 1px solid rebeccapurple; align-content: center; text-align-last: center">
+        <input type="button" value="1">
+        <input type="button" value="2">
+        <input type="button" value="3"><br/>
+        <input type="button" value="4">
+        <input type="button" value="5">
+        <input type="button" value="6"><br/>
+        <input type="button" value="7">
+        <input type="button" value="8">
+        <input type="button" value="9"><br/>
+        <input type="button" value="0">
+        <input type="button" value="-">
+        <input type="button" value="+">
+        <input type="button" value="=">
+        <input type="text" id="textName">
+    </div>
+<input type="button" value="textObject" onclick="testObject();"/>
+    <input type="button" value="textOwnObject" onclick="testOwnObject();"/>
+    <input type="button" value="testJSON" onclick="testJSON();"/>
+</body>
+</html>
